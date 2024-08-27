@@ -16,6 +16,7 @@ class DemoApplicationTests {
 		logger.info("Test case executing...");
 		logger.info("Test case executing..2");
         assertTrue(true);
+		logger.info("error")
 	}
 
 }
