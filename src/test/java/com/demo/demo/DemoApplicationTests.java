@@ -12,9 +12,10 @@ class DemoApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemoApplicationTests.class);
 
 	@Test
-	public  contextLoads() {
+	public void contextLoads() {
 		logger.info("Test case executing...");
         assertTrue(true);
+		logger.info("First jenkins pipeline test>>>>>!!!!!!!!");
 
 
 	}
