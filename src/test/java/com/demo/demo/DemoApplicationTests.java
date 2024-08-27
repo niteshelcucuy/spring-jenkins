@@ -12,7 +12,7 @@ class DemoApplicationTests {
 	public static Logger logger = LoggerFactory.getLogger(DemoApplicationTests.class);
 
 	@Test
-	public void contextLoads() {
+	public  contextLoads() {
 		logger.info("Test case executing...");
         assertTrue(true);
 
