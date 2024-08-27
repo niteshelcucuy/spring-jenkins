@@ -5,7 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SpringBootTest
 class DemoApplicationTests {
@@ -14,7 +14,8 @@ class DemoApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info("Test case executing...");
-		assertEquals(true, true);
+		logger.info("Test case executing..2");
+        assertTrue(true);
 	}
 
 }
